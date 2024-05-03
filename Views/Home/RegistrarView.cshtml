@@ -1,0 +1,251 @@
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<body>
+  <section>
+    <div class="container">
+      <div class="user signinBx">
+        <div class="imgBx"><img src="/Img/login.png" alt="" /></div>
+        <div class="formBx">
+            
+            
+            <form action='@Url.Action("Login")' method="post">
+              <img src="/Img/logologin.png" width="250px">
+            <h2 style="color: #E0BD9F;">INICIAR SESIÓN</h2>
+            <hr style="border-color: #E0BD9F; border-width: 2px; margin: 10px 0;">
+            
+            <input class="IngresoUsername"  type="text" name="Username" placeholder="Usuario" value="tomi_2" required/>
+            <input type="password" name="Contraseña" placeholder="Contraseña" value="tommm111" required/>
+            </p>
+            <p>
+                <button class="round-button" type="submit">Iniciar Sesión</button>
+            </p>
+            <p class="signup">
+               ¿No tenés una cuenta?
+            </p>
+
+              <a href="#" onclick="toggleForm();" <button class="round-button">REGISTRATE.</button></a>
+            </p>
+          </form>
+
+
+          
+        </div>
+      </div>
+      <div class="user signupBx">
+        <div class="formBx">
+         <form action='@Url.Action("RegistrarUsuario")' method="post">
+            <img src="/Img/logologin.png" width="250px">
+            <h2 style="color: #E0BD9F;">CREAR UNA CUENTA</h2>
+            <input type="text" name="Username" placeholder="Usuario" />
+            <input type="email" name="Mail" placeholder="Mail" />
+            <input type="password" name="Contraseña" placeholder="Contraseña" />
+            <input type="password" name="ConfirmarContraseña" placeholder="Confirmar Contraseña" />
+            <input class="round-button" type="submit" name="" value="Registrarse" />
+            <p class="signup">
+             ¿Ya tenés una cuenta?
+              <a href="#" onclick="toggleForm();">Iniciar Sesión.</a>
+            </p>
+          </form>
+        </div>
+        <div class="imgBx"><img src="/Img/login.png" alt="" /></div>
+      </div>
+    </div>
+      @if (ViewBag.MensajeError != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.MensajeError
+                    </div>
+                }
+                @if (ViewBag.MensajeError2 != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.MensajeError2
+                    </div>
+                }
+  </section>
+</body>
+
+<style>
+  .OlvideContraseña {
+    color:  black;
+    text-decoration: underline;
+
+  }
+ .round-button {
+        border-radius: 5%; 
+        padding: 10px 20px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        background-color: #E0BD9F !important; 
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+        font-size: 16px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section .container {
+  position: relative;
+  width: 950px;
+  height: 700px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+section .container .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+section .container .user .imgBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #E0BD9F;
+  transition: 0.5s;
+}
+
+section .container .user .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .container .user .formBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+  
+}
+
+section .container .user .formBx form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+section .container .user .formBx form input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  border-radius: 60px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section .container .user .formBx form input[type='submit'] {
+  max-width: 100px;
+  background: #677eff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+section .container .user .formBx form .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section .container .user .formBx form .signup a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+}
+
+section .container .signupBx {
+  pointer-events: none;
+}
+
+section .container.active .signupBx {
+  pointer-events: initial;
+}
+
+section .container .signupBx .formBx {
+  left: 100%;
+}
+
+section .container.active .signupBx .formBx {
+  left: 0;
+}
+
+section .container .signupBx .imgBx {
+  left: -100%;
+}
+
+section .container.active .signupBx .imgBx {
+  left: 0%;
+}
+
+section .container .signinBx .formBx {
+  left: 0%;
+}
+
+section .container.active .signinBx .formBx {
+  left: 100%;
+}
+
+section .container .signinBx .imgBx {
+  left: 0%;
+}
+
+section .container.active .signinBx .imgBx {
+  left: -100%;
+}
+</style>
+
+<script>
+  const toggleForm = () => {
+  const container = document.querySelector(".container");
+  container.classList.toggle("active");
+};
+</script>
+

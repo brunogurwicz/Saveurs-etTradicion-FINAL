@@ -1,0 +1,299 @@
+html {
+  font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.botonperson2{
+  background-color: #b4977d !important;
+  border: #b4977d;
+  color: white;
+  width: 70px;
+}
+.botonperson{
+  border-radius: 25px;
+}
+
+.iconitonav{
+  font-size: 20px;}
+
+.user_icon{
+  color:#b4977d ;
+  font-size: 50px;
+}
+.navbar{
+  background-color: #E0BD9F !important;
+}
+.caja{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container2{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card-img-top:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+.banner{
+  width: 100%;
+  background-color: #e4d1c1;
+}
+
+@primary-color: #fff;
+@border-radius: 5px;
+@black-color: #351897;
+
+
+.cat {
+ margin-top: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ display: grid;
+ place-items: center;
+ min-height: 100vh;
+}
+
+.container3 {
+ background-color: #d3c3b5;
+ position: relative;
+ display: grid;
+ grid-template-columns: 300px 600px;
+ border-radius: border-radius;
+ box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+margin-bottom: 50px;
+}
+ .container3 img {
+  width: 300px;
+  height: 300px;
+  border-radius: border-radius 0 0 border-radius;
+ }
+ .container3 .btn {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #918378;
+  color: primary-color;
+  padding: 22px 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: border-radius;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);}
+  .btn i {
+   margin-left: 20px;
+   font-size: 1.5rem;
+  }
+.btn:hover{
+  background-color: #776c64;
+  color: white;
+}
+.container3__text {
+ padding: 40px 40px 0;}
+.container3__text  h1 {
+  color: black-color;
+  font-weight: 400;
+ }
+ .container3__text__star span {
+  font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+ }
+ p {
+  font-size: 0.9rem;
+ }
+ .container3__text__timing {
+  display: flex;
+  margin: 20px 0 20px;}
+  .container3__text__timing_time {
+   margin-right: 40px;
+  }
+  .container3__text__timing h2 {
+   margin-bottom: 5px;
+   font-size: 1rem;
+   font-weight: 400;
+   color: #818189;
+  }
+  .container3__text__timing p {
+   color: black-color;
+   font-weight: bold;
+   font-size: 1.2rem;
+  }
+ 
+  .sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    height: 100px; /* Ajusta la altura según sea necesario */
+    background-color: #30833b;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+    animation: blink 1s infinite alternate; /* Animación de parpadeo */
+}
+
+.sticky-button2 {
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  width: 100px; /* Ajusta el ancho según sea necesario */
+  height: 100px; /* Ajusta la altura según sea necesario */
+  background-color: #30833b;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+  animation: blink 1s infinite alternate; /* Animación de parpadeo */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+
+#estado-icono{
+  font-size: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.ingredientereceta {
+  background: #fff;
+  font: 13px "Open Sans", sans-serif;
+  color: #222;
+}
+.recipe-card {
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(240, 241, 243, 1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(240, 241, 243, 1);
+  box-shadow: 0px 0px 20px 1px rgba(240, 241, 243, 1);
+  border: 1px solid #f0f1f3;
+  width: 300px;
+  margin: 50px auto;
+}
+.recipe-card__body {
+  padding: 20px;
+}
+.recipe-card__heading {
+  padding: 0;
+  margin: 0 0 0; 
+  color: #444;
+}
+.recipe-card__subhead {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 30px;
+}
+.recipe-card__ingredients {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  column-count: 1;}
+  .recipe-card__ingredients li {
+    margin-bottom: 5px;
+  }
+  .recipe-card__ingredients li:before {
+    content: "\2022";
+    color: #eb9376;
+    margin-right: 5px;
+  }
+
+
+.recipe-card__nav {
+  margin: 0 0 20px;
+  padding: 0;
+  border-bottom: 1px solid #eb9376;}
+  .recipe-card__nav li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .recipe-card__nav h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .recipe-card__nav h3:after {
+    content: "";
+    display: block;
+    width: 0%;
+    padding-top: 10px;
+    margin: 0 auto;
+    border-bottom: 5px solid #eb9376;
+    transition: width 250ms ease-in-out 0s;
+  }
+  .recipe-card__nav h3:hover {
+    cursor: pointer;
+  }
+  .recipe-card__nav h3:hover:after,
+  .recipe-card__nav h3.active:after {
+    width: 100%;
+  }
+
+
+@media (min-width: 599px) {
+  .recipe-card {
+    width: 600px;
+  }
+  .recipe-card__ingredients {
+    column-count: 2;
+  }
+}
+
+
+#Estado_Cuenta{
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(163, 92, 0);
+  padding: 20px;
+  text-decoration: none;
+}
+
+.botoncomentario{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  align-content: left;
+}
+

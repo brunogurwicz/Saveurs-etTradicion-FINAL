@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Categorias";
+}
+<section style="background-color: #f7e7d9;">
+   <img class="banner"src="/Img/Banner/@ViewBag.obj.Banner" alt="jjj">
+
+
+<a href='@Url.Action("AgregarIngredienteAdmin")'>   
+    <div class="sticky-button2">
+        Agregá Nuevos Ingredientes!
+        <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+    </div>
+</a>
+
+<a href='@Url.Action("AgregarReceta",new{IdCategoria=@ViewBag.obj.IdCategoria})'>   
+    <div class="sticky-button">
+        Agregá Tu Receta!
+        <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+    </div>
+</a>
+
+
+
+<div class="cat">
+    @foreach (Receta item in ViewBag.list_receta)
+    {
+         <div class="container3">
+         <img src= "@item.Imagen" alt="foto"/>
+         <div class="container3__text">
+            <h1>@item.Titulo</h1>
+            <div class="container3__text__star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+
+    <p> @item.Descripcion
+</p>
+    <div class="container3__text__timing">
+     <div class="container3__text__timing_time">
+       <i class="fas fa-clock"></i>
+      <p>@item.Tiempo</p>
+     </div>
+     <div class="container3__text__timing_time">
+       <i class="fas fa-dollar-sign"></i>
+      <p>@item.Precio</p>
+     </div>
+     <div class="container3__text__timing_time">
+      <i class="fas fa-users"></i>
+      <p>@item.CantidadPersonas</p>
+     </div>
+    </div>
+    <a href='@Url.Action("MostrarIngredientes", new{IdReceta=@item.IdReceta}) '><button on-click="Entrar()" class="btn">view recipe <i class="fa fa-arrow-right"></i></button></a>
+   </div>
+    </div>
+    }
+   </div>
+
+</section> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+

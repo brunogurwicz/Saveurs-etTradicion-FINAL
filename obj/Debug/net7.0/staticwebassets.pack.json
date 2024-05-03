@@ -1,0 +1,505 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Integrador.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Integrador.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\Banner\\Carne.png",
+      "PackagePath": "staticwebassets\\Img\\Banner\\Carne.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\Banner\\ENSALADAS_DE_LA_HUERTA.png",
+      "PackagePath": "staticwebassets\\Img\\Banner\\ENSALADAS_DE_LA_HUERTA.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\Banner\\Pasta.png",
+      "PackagePath": "staticwebassets\\Img\\Banner\\Pasta.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\Banner\\Postre.png",
+      "PackagePath": "staticwebassets\\Img\\Banner\\Postre.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\LGO.png",
+      "PackagePath": "staticwebassets\\Img\\LGO.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\bannerensaladas (1).png",
+      "PackagePath": "staticwebassets\\Img\\bannerensaladas (1).png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\bannerensaladas (2).png",
+      "PackagePath": "staticwebassets\\Img\\bannerensaladas (2).png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\bannerensaladas(3).png",
+      "PackagePath": "staticwebassets\\Img\\bannerensaladas(3).png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\bannerensaladas.png",
+      "PackagePath": "staticwebassets\\Img\\bannerensaladas.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\ensa.jpg",
+      "PackagePath": "staticwebassets\\Img\\ensa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\form1.jpg",
+      "PackagePath": "staticwebassets\\Img\\form1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\login.png",
+      "PackagePath": "staticwebassets\\Img\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\logo.png",
+      "PackagePath": "staticwebassets\\Img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\logologin.png",
+      "PackagePath": "staticwebassets\\Img\\logologin.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\Img\\susana.png",
+      "PackagePath": "staticwebassets\\Img\\susana.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\js\\scrypts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrypts.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\autocomplete\\jquery.autocomplete.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\autocomplete\\jquery.autocomplete.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\bootstrsp\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\bootstrsp\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\bootstrsp\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\bootstrsp\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-3.1.1\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-3.1.1\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\index.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\package.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\jquery\\jquery-ui-1.12.1\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\steps\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\steps\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\steps\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\steps\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert (copia).css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert (copia).css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\sweetalert\\sweetalert3.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\sweetalert\\sweetalert3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\typehead\\jquery.typeahead.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\typehead\\jquery.typeahead.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\typehead\\jquery.typeahead.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\typehead\\jquery.typeahead.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\typehead\\jquery.typeahead.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\typehead\\jquery.typeahead.scss"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\validate\\jqBootstrapValidation.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\validate\\jqBootstrapValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\validate\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\validate\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\validate\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\validate\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\validate\\jquery.validate.min (copia).js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\validate\\jquery.validate.min (copia).js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\assets\\lib\\plugins\\validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\plugins\\validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\47696158\\Downloads\\Saveurs-et-tradition-2.0-main\\Saveurs-et-tradition-2.0-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Integrador.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Integrador.props",
+      "PackagePath": "build\\Integrador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Integrador.props",
+      "PackagePath": "buildMultiTargeting\\Integrador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Integrador.props",
+      "PackagePath": "buildTransitive\\Integrador.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

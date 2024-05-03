@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+
+
+    <link rel="stylesheet" type="text/css" href="~/assets/lib/plugins/bootstrsp/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/lib/plugins/jquery/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/lib/plugins/steps/jquery.steps.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/lib/plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/lib/plugins/sweetalert/sweetalert.css">
+    <!--DISEÑO CSS INTERNO PARA QUE NO INTERFIERA CON OTRAS PÁGINAS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/styles.css">
+
+</head>
+<body>
+    
+	<section class="login">
+
+        <div class="container">
+            <div class="row login_box">
+                <div class="col col-md-5 left">
+                    <div class="contact">
+                        <div>
+                            <h3>AGREGÁ TU RECETA</h3>
+                            <form name="guardarReceta" id="guardarReceta" action="#" class="wizard-big" autocomplete="off" >
+                                <input type="hidden" name="IdCategoria" value="@ViewBag.IdCategoria">
+                                <input type="hidden" name="IdUsuario" value="@ViewBag.IdUsuario"><b></b>
+                                <input id="IdIngrediente1" name="IdIngrediente1" type="hidden">
+                                <input id="IdIngrediente2" name="IdIngrediente2" type="hidden">
+                                <input id="IdIngrediente3" name="IdIngrediente3" type="hidden">
+                                <input id="IdIngrediente4" name="IdIngrediente4" type="hidden">
+                                <input id="IdIngrediente5" name="IdIngrediente5" type="hidden">
+                                <input id="IdIngrediente6" name="IdIngrediente6" type="hidden">
+                                <input id="IdIngrediente7" name="IdIngrediente7" type="hidden">
+                                <input id="IdIngrediente8" name="IdIngrediente8" type="hidden">
+
+                                <h1>Receta</h1>
+                                <fieldset>
+                                    <!-- <h2>Receta</h2> -->
+                                    <div class="row">
+
+                                        <div class="col-lg-12">
+
+                                            <div class="form-group">
+                                                <input id="Titulo" name="Titulo" placeholder="Titulo" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Descripcion" name="Descripcion" placeholder="Descripción" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Pasos" name="Pasos" type="text" placeholder="Pasos (se debe poner 'paso', sin enumerar, antes de una nueva instrucción)" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="CantidadPersonas" name="CantidadPersonas" placeholder="Cantidad personas" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Precio" name="Precio" placeholder="Precio" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Tiempo" name="Tiempo" placeholder="Tiempo Estimado" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Video" name="Video" placeholder="Video" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="Imagen" name="Imagen" placeholder="Imagen" type="text" class="form-control _required">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+
+                                <h1>Ingredientes</h1>
+                                    <fieldset>
+                                    <!-- <h2>Ingredientes</h2> -->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente1" name="IdIngrediente1" placeholder="Ingrediente 1" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente2" name="IdIngrediente2" placeholder="Ingrediente 2" type="text" class="form-control" >
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente3" name="IdIngrediente3" placeholder="Ingrediente 3" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <!-- 
+<div class="form-group">
+                                                <input id="NameIngrediente4" name="IdIngrediente4" placeholder="Ingrediente 4" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente5" name="IdIngrediente5" placeholder="Ingrediente 5" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente6" name="IdIngrediente6" placeholder="Ingrediente 6" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente7" name="IdIngrediente7" placeholder="Ingrediente 7" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="NameIngrediente8" name="IdIngrediente8" placeholder="Ingrediente 8" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            -->
+
+                                        </div>
+                                        <div class="col-lg-6">
+
+                                            <div class="form-group">
+                                                <input id="Cantidad1" name="Cantidad1" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad2" name="Cantidad2" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad3" name="Cantidad3" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                          <!-- 
+  <div class="form-group">
+                                                <input id="Cantidad4" name="Cantidad4" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad5" name="Cantidad5" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad6" name="Cantidad6" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad7" name="Cantidad7" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="Cantidad8" name="Cantidad8" placeholder="Cantidad" type="text" class="form-control">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+
+                                          -->
+
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col col-md-7 right">
+                    <div class="right-text ">
+                        <h2>SAVEURS</h2>
+                        <h5>ET TRADITION</h5>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+	</section>
+
+<script type="text/javascript" src="~/assets/lib/plugins/jquery/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/jquery/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/jquery/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/steps/jquery.steps.min.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/validate/jquery.validate.min.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/autocomplete/jquery.autocomplete.js"></script> 
+<script type="text/javascript" src="~/assets/lib/plugins/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="~/assets/lib/plugins/sweetalert/sweetalert.min.js"></script>
+<script type="text/javascript" src="~/assets/js/scrypts.js"></script>
+
+</body>
+</html>

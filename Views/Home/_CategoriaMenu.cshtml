@@ -1,0 +1,8 @@
+@model List<Categoria>
+
+<ul class="dropdown-menu">
+    @foreach (Categoria categoria in Model)
+    {
+        <li>@Html.ActionLink(categoria.NombreCategoria, "Index", "Home", new { categoriaId = categoria.IdCategoria }, null)</li>
+    }
+</ul>

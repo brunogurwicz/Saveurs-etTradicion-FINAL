@@ -1,0 +1,50 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Integrador</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Integrador.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color: #FFDEC1;">
+    <header style="background-color: #E0BD9F;">
+        
+        <!--USUARIO-->
+        <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid" style="width: 354px; margin-left: 0px;">
+
+   
+        <!--LOGO-->
+        <a asp-action="Index">  <img src="/Img/LGO.png" alt="logo" width="190px" class="img-fluid"></a></div>
+
+        <!--Inicio / Desiniciar-->
+        <a href='@Url.Action("EstadoCuenta")' id="Estado_Cuenta"><i class="fa-solid fa-circle-user" id="estado-icono"></i></a> 
+         
+         
+          
+      </nav>
+    </header>
+
+    <div class="container-fluid" style="background-color: #FFDEC1; padding:0; margin:0px">
+        <main role="main" class="pb-3 caja">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <!--<script src="~/lib/jquery/dist/jquery.min.js"></script>-->
+    <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    <!--<script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-eMNCOeT/HyrzjqvFS+UmPPmNPQ/dh+pwRA5M5QNO+sAzeUqSrZ+pdys/C0J6SIX2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyETePuhTmhA2CyCeVJWzVpFGh/R5IyAwo" crossorigin="anonymous"></script>-->
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

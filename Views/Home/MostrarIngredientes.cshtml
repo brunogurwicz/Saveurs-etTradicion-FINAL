@@ -1,0 +1,115 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<section>
+    <div class='recipe-card' style="background-color: #FFF5EC;">
+        <div style="background:url(@ViewBag.recetita.Imagen) no-repeat 50% 50%; background-size:cover; height: 150px"></div>
+        <div class="recipe-card__body">
+            <h1 class="recipe-card__heading">@ViewBag.recetita.Titulo</h1>
+            <h2 class="recipe-card__subhead">@ViewBag.recetita.Descripcion </h2>
+
+            <ul class="recipe-card__nav">
+                <li>
+                    <h3  onclick="showIngredients()">Ingredientes</h3>
+                </li>
+                <li>
+                    <h3 onclick="showRecipe()">Receta</h3>
+                </li>
+                <li>
+                    <h3 onclick="showVideo()">Video</h3>
+                </li>
+                <li>
+                    <h3 onclick="showForo()">Foro</h3>
+                </li>
+            </ul>
+
+            <div id="ingredientsSection" style="column-count: 2;">
+                @for (int i = 0; i < ViewBag.list_ingredientes.Count; i++)
+                {
+                    <div style ="background-color:#ebddd0; margin-bottom:10px;">
+                        <h1 style="font-weight: bold; font-size:18px;">
+                            @ViewBag.list_ingredientes[i].Nombre_Ingrediente
+                        </h1>
+                        <p style="font-size: 14px">@ViewBag.list_cantidadingredientes[i]</p>
+                    </div>
+                }
+            </div>
+
+            <div id="recipeSection" style="display: none;">
+                @if (ViewBag.recetita.Pasos != null)
+                {
+                    var steps = ((string)ViewBag.recetita.Pasos).Split(new[] { "Paso", "paso" }, StringSplitOptions.RemoveEmptyEntries);
+                    int stepCounter = 1;
+                    foreach (var step in steps)
+                    {
+                        <div style="background-color:#ebddd0; margin-bottom:10px;">
+                            <h1 style="font-weight: bold; font-size:18px;">
+                                Paso @stepCounter
+                            </h1>
+                            <p style="font-size: 14px">@step</p>
+                        </div>
+                        stepCounter++;
+                    }
+                }
+            </div>
+
+            <div id="videoSection" style="display: none;">
+                @if (!string.IsNullOrEmpty(ViewBag.recetita.Video))
+                {
+                    <h5> ¿Querés más detalle?</h5>
+                    <iframe width="560" height="315" src="@ViewBag.recetita.Video" frameborder="0" allowfullscreen></iframe>
+                }
+            </div>
+
+             <div id="foroSection" style="display: none;">
+             <form action='@Url.Action("AgregarComentario")' method="post">
+              
+              <input id="comentario" name="idreceta" type="hidden" value="@ViewBag.Id">
+              <input id="comentario" name="comentario" placeholder="escriba aqui su comentario..." type="text" class="form-control _required"><br>
+            <p>
+                <button class="botoncomentario" type="submit">Enviar Comentario</button>
+            </p>
+             </form>
+             
+             <div>
+             <h3 class ="recipe-card__heading">Reseñas</h3>
+             <br>
+                 @foreach(Comentario p in ViewBag.ListComentarios){
+                    <div style ="background-color:#ebddd0; margin-bottom:30px; padding:20px; border-radius: 25px;">
+                    <h5>@p.TexCom</h5>
+                    </div>
+                 }
+             </div>
+            
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+    function showIngredients() {
+        document.getElementById("ingredientsSection").style.display = "block";
+        document.getElementById("recipeSection").style.display = "none";
+        document.getElementById("videoSection").style.display = "none";
+        document.getElementById("foroSection").style.display = "none";
+    }
+
+    function showRecipe() {
+        document.getElementById("ingredientsSection").style.display = "none";
+        document.getElementById("recipeSection").style.display = "block";
+        document.getElementById("videoSection").style.display = "none";
+        document.getElementById("foroSection").style.display = "none";
+    }
+
+    function showVideo() {
+        document.getElementById("ingredientsSection").style.display = "none";
+        document.getElementById("recipeSection").style.display = "none";
+        document.getElementById("videoSection").style.display = "block";
+        document.getElementById("foroSection").style.display = "none";
+    }    
+    function showForo() {
+        document.getElementById("ingredientsSection").style.display = "none";
+        document.getElementById("recipeSection").style.display = "none";
+        document.getElementById("videoSection").style.display = "none";
+        document.getElementById("foroSection").style.display = "block";
+    }
+</script>

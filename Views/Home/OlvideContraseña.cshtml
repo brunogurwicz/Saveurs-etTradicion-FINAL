@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "OlvideContraseña";
+}
+<body>
+  <section>
+    <div class="container">
+      <div class="user signinBx">
+        <div class="imgBx"><img src="/Img/login.png" alt="" /></div>
+        <div class="formBx">
+            <form action='@Url.Action("OlvideContraseña")' method="post">
+              <img src="/Img/logologin.png" width="250px">
+            <h2 style="color: #E0BD9F;">RECUPERAR CONTRASEÑA</h2>
+            <hr style="border-color: #E0BD9F; border-width: 2px; margin: 10px 0;">
+            <input type="Email"  class="form-control"  name="Mail" placeholder="Mail" required/>
+            <p>
+                <a class="OlvideContraseña"href='@Url.Action("OlvidarContraseña")'> Olvide Mi Contraseña </a>
+            </p>
+            <p>
+                <button class="round-button" type="submit">RECUPERAR</button>
+            </p>          
+          </form>
+</section>
+</body>
